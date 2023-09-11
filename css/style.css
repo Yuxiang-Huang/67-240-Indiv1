@@ -149,3 +149,10 @@ div tr {
 #Heading a:hover {
   color: aquamarine;
 }
+
+#IntroParagraph {
+  width: 80%;
+  margin: auto;
+  text-decoration: dotted underline;
+  line-height: 40px;
+}
