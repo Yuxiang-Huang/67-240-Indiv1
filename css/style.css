@@ -14,9 +14,40 @@
 /* 3. Metadata */
 
 /* 4. Sectioning and Structuring */
+body {
+  background-color: bisque;
+  margin: 0px;
+}
+
+header {
+  background-color: chocolate;
+  padding: 0px;
+}
+
+nav {
+  background-color: blue;
+}
+
+nav li {
+  display: inline;
+  margin: 100px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  text-align: center;
+}
+
 footer {
+  background-color: brown;
   clear: both;
   text-align: center;
+  padding: 0px;
+  margin-bottom: -50px;
 }
 
 footer li {
@@ -44,9 +75,9 @@ form p {
 }
 
 /* 9. Tables */
-table {
-  background-color: beige;
-}
+/* table {
+  background-color: beige; 
+} */
 
 td,
 th {
@@ -66,4 +97,22 @@ th {
 .image {
   height: 450px;
   width: 600px;
+}
+
+div tr {
+  background-color: red;
+}
+
+#Heading {
+  background-color: yellow;
+  width: fit-content;
+  border: 2px solid;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+#Heading a {
+  text-decoration: none;
 }
