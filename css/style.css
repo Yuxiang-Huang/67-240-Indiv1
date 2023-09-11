@@ -7,45 +7,16 @@
 /* Icons for the footer */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-/* 1. Universal
-*
-Pseudo classes (if not applied to specific elements)
-Pseudo elements (if not applied to specific elements) */
-/* 2. Document
-html */
-/* 3. Metadata
-(head)
-(title)
-(base)
-(link)
-(meta)
-(style)
-(script)
-(noscript)
-(template)
-(slot) */
-/* 4. Sectioning and Structuring
-body
-header
-nav
-main
-article
-aside
-section 
-pre
-blockquote
-figure
-figcaption
-address
-summary
-details
-div
-*/
+/* 1. Universal */
 
+/* 2. Document */
+
+/* 3. Metadata */
+
+/* 4. Sectioning and Structuring */
 footer {
-  /* background-color: beige; */
-  text-align: center;
   clear: both;
+  text-align: center;
 }
 
 footer li {
@@ -57,114 +28,34 @@ p {
   font-family: "Merienda", serif;
 }
 
-/* 5. Headings
-hgroup
-h1
-h2
-h3
-h4
-h5
-h6 */
+/* 5. Headings */
 
-/* 6. Lists
-ul
-ol
-dl
-dt
-dd
-menu
-[menuitem] */
+/* 6. Lists */
 
-/* li {
-  display: inline;
-} */
+/* 7. Media */
 
-/* 7. Media
-canvas
-object
-embed
-img
-picture
-audio
-video
-[(param)]
-(source)
-track
-map
-area
-[svg]
-[math]
-iframe */
+/* 8. Forms */
+form {
+  background-color: beige;
+}
 
-/* 8. Forms
-form
-fieldset
-legend
-label
-input
-button
-select
-optgroup
-option
-datalist
-textarea
-output */
+form p {
+  font-family: serif;
+}
 
-/* 9. Tables
-caption
-colgroup
-col
-thead
-tfoot
-tbody
-tr
-th
-td */
+/* 9. Tables */
+table {
+  background-color: beige;
+}
 
-th,
-td {
+td,
+th {
   border: 1px solid;
 }
 
-/* 10. Phrasing
-a
-strong
-em
-b
-i
-u
-s
-sup
-sub
-small
-abbr
-dfn
-mark
-del
-ins
-q
-cite
-data
-progress
-time
-meter
-code
-var
-samp
-kbd
-[keygen]
-bdi
-bdo
-ruby
-rt
-rp
-span */
+/* 10. Phrasing */
 
-/* 11. Misc
-hr
-(br)
-(wbr)
-dialog */
+/* 11. Misc */
 
 /* 12. Attributes */
 .container {
