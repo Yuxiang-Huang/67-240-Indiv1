@@ -117,14 +117,23 @@ th {
   grid-template-columns: 1fr 1fr;
 }
 
-.rankedLocation h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
-  text-indent: 5px;
-}
-
 .image {
   height: 450px;
   width: 600px;
+}
+
+.mapLeft {
+  margin: 10px;
+}
+
+.mapRight li {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 10px;
+}
+
+.rankedLocation h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  text-indent: 5px;
 }
 
 div tr {
