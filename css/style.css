@@ -43,7 +43,7 @@ div
 */
 
 footer {
-  background-color: beige;
+  /* background-color: beige; */
   text-align: center;
   clear: both;
 }
@@ -166,4 +166,9 @@ dialog */
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.image {
+  height: 450px;
+  width: 600px;
 }
