@@ -20,12 +20,12 @@ body {
 }
 
 header {
-  background-color: chocolate;
+  background-color: cornflowerblue;
   padding: 0px;
 }
 
 nav {
-  background-color: gray;
+  background-color: chocolate;
 }
 
 nav ul {
@@ -54,7 +54,7 @@ nav ul {
 }
 
 footer {
-  background-color: brown;
+  background-color: gray;
   clear: both;
   text-align: center;
   margin-bottom: -100px;
@@ -79,6 +79,10 @@ p {
 }
 
 /* 5. Headings */
+
+h1 {
+  text-indent: 10px;
+}
 
 /* 6. Lists */
 
@@ -113,6 +117,11 @@ th {
   grid-template-columns: 1fr 1fr;
 }
 
+.rankedLocation h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  text-indent: 5px;
+}
+
 .image {
   height: 450px;
   width: 600px;
@@ -134,4 +143,9 @@ div tr {
 
 #Heading a {
   text-decoration: none;
+  color: purple;
+}
+
+#Heading a:hover {
+  color: aquamarine;
 }
