@@ -25,17 +25,27 @@ header {
 }
 
 nav {
-  background-color: blue;
+  background-color: gray;
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 nav li {
   display: inline;
-  margin: 100px;
 }
 
 nav li a {
-  color: white;
+  color: chartreuse;
+  font-size: 24px;
   text-decoration: none;
+}
+
+nav li a:hover {
+  color: purple;
+  text-shadow: 8px 8px 16px purple;
 }
 
 nav ul {
@@ -47,7 +57,7 @@ footer {
   clear: both;
   text-align: center;
   padding: 0px;
-  margin-bottom: -50px;
+  margin-bottom: -100px;
 }
 
 footer li {
@@ -105,12 +115,12 @@ div tr {
 
 #Heading {
   background-color: yellow;
-  width: fit-content;
   border: 2px solid;
-  margin: auto;
-  padding: 10px;
   border-radius: 10px;
+  font-size: 48px;
+  margin: auto;
   padding: 3px;
+  width: fit-content;
 }
 
 #Heading a {
