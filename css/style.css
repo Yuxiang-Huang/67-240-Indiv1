@@ -1,5 +1,5 @@
 /* In my CSS file, I organized the CSS selectors into 12 sections according to Meiert’s 2013 article.
-   In each section, I ordered the CSS selectors and the declarations by alphabetical order. */
+    In each section, I ordered the CSS selectors and the declarations by alphabetical order.  */
 
 /* Icons for the footer */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
@@ -103,6 +103,7 @@ legend {
 /* 9. Tables */
 table {
   background-color: aquamarine;
+  border-spacing: 10px 15px;
   margin: 5px;
 }
 
