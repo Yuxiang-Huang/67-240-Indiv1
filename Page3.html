@@ -2,9 +2,11 @@
 <html>
   <head>
     <title>Page3</title>
+    <!-- CSS file linked -->
     <link href="css/style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+    <!-- This is the Navigation Bar -->
     <header>
       <h1 id="Heading"><a href="index.html">CMU Dining</a></h1>
       <nav>
@@ -17,10 +19,14 @@
       </nav>
     </header>
 
+    <!-- This is the heading of the page -->
     <h1>Your Opinion</h1>
+    <!-- This is the form -->
     <form action="http://www.example.com/review.php" method="get">
+      <!-- First part ask for personal info -->
       <fieldset>
         <legend>Your Details:</legend>
+        <!-- Text input for name and email -->
         <label
           >Name:
           <input type="text" name="name" size="30" maxlength="100" /></label
@@ -31,23 +37,23 @@
         ><br />
       </fieldset>
       <br />
+      <!-- Second part ask for opinions -->
       <fieldset>
         <legend>Your Opinion:</legend>
+        <!-- number input for how many times do you eat on-campus every week? -->
         <p>
           How many times do you eat on-campus every week?
           <br />
           <input type="number" name="quantity" min="0" max="28" value="0" />
         </p>
 
+        <!-- text input for favorite dining option -->
         <label
-          >Which do you think is the best on-campus dining location?:
-          <input
-            type="text"
-            name="bestDiningLocation"
-            size="30"
-            maxlength="100"
+          >Which do you think is the best on-campus dining option?:
+          <input type="text" name="bestDiningOption" size="30" maxlength="100"
         /></label>
 
+        <!-- select input for best on-campus dining building -->
         <p>
           <label for="hear-about"
             >Which do you think is the best on-campus dining building?</label
@@ -64,6 +70,7 @@
           </select>
         </p>
 
+        <!-- radio input for rating of the on-campus dining options -->
         <p>
           <label for="hear-about"
             >How do you feel about the on-campus dining options?</label
@@ -95,20 +102,25 @@
           >
         </p>
 
+        <!-- text input for additional comments -->
         <p>
-          <label for="comments">Comments:</label><br />
+          <label for="comments">Additional Comments:</label><br />
           <textarea rows="4" cols="40" id="comments"></textarea>
         </p>
+
+        <!-- checkbox for subscribe -->
         <label
           ><input type="checkbox" name="subscribe" checked="checked" /> Sign me
           up for email updates</label
         >
         <br />
         <br />
+        <!-- Submit button -->
         <input type="submit" value="Submit review" />
       </fieldset>
     </form>
 
+    <!-- This is the footer -->
     <footer>
       <ul>
         <li><i class="fa fa-user"></i>Yuxiang Huang</li>

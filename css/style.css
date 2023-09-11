@@ -91,6 +91,7 @@ form {
   background-color: beige;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  margin: 5px;
   width: 400px;
 }
 
@@ -100,9 +101,10 @@ legend {
 }
 
 /* 9. Tables */
-/* table {
-  background-color: beige; 
-} */
+table {
+  background-color: aquamarine;
+  margin: 5px;
+}
 
 td,
 th {
