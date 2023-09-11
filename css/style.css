@@ -1,11 +1,11 @@
 /* In my CSS file, I organized the CSS selectors into 12 sections according to Meiert’s 2013 article.
    In each section, I ordered the CSS selectors and the declarations by alphabetical order. */
 
-/* Google Font */
-@import url("https://fonts.googleapis.com/css?family=Merienda");
-
 /* Icons for the footer */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/* Google Font */
+@import url("https://fonts.googleapis.com/css?family=Merienda");
 
 /* 1. Universal */
 
@@ -19,6 +19,27 @@ body {
   margin: 0px;
 }
 
+footer {
+  background-color: gray;
+  clear: both;
+  margin-bottom: -100px;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+  color: blue;
+  margin-right: 50px;
+}
+
+footer li i {
+  color: black;
+}
+
+footer ul {
+  padding: 10px;
+}
+
 header {
   background-color: cornflowerblue;
   padding: 0px;
@@ -26,11 +47,6 @@ header {
 
 nav {
   background-color: chocolate;
-}
-
-nav ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 nav li {
@@ -50,28 +66,9 @@ nav li a:hover {
 }
 
 nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
-}
-
-footer {
-  background-color: gray;
-  clear: both;
-  text-align: center;
-  margin-bottom: -100px;
-}
-
-footer ul {
-  padding: 10px;
-}
-
-footer li {
-  display: inline;
-  color: blue;
-  margin-right: 50px;
-}
-
-footer li i {
-  color: black;
 }
 
 p {
@@ -92,9 +89,9 @@ h1 {
 /* 8. Forms */
 form {
   background-color: beige;
-  width: 400px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  width: 400px;
 }
 
 legend {
@@ -142,10 +139,6 @@ th {
   text-indent: 5px;
 }
 
-div tr {
-  background-color: red;
-}
-
 #Heading {
   background-color: yellow;
   border: 2px solid;
@@ -157,8 +150,8 @@ div tr {
 }
 
 #Heading a {
-  text-decoration: none;
   color: purple;
+  text-decoration: none;
 }
 
 #Heading a:hover {
@@ -166,8 +159,8 @@ div tr {
 }
 
 #IntroParagraph {
-  width: 80%;
+  line-height: 40px;
   margin: auto;
   text-decoration: dotted underline;
-  line-height: 40px;
+  width: 80%;
 }
